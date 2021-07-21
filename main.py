@@ -105,7 +105,7 @@ class forca:
 			for l in palavra:
 				if l in acertos or l == " ": p += l
 				else: p += "_ "
-			if p == palavra: #palavras com duas letras iguais seram reconhecidas xd
+			if p == palavra: #palavras com duas letras iguais serao reconhecidas xd
 				print("\033[1;92mParabéns, você ganhou! :D") 
 				print(f"A palavra era: {palavra}\033[0;0m")
 				time.sleep(3)
